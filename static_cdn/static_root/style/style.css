@@ -1,0 +1,98 @@
+body {
+    color: rgb(209, 205, 199);
+    background-color: rgb(24, 26, 27);
+}
+
+hr {
+    background-color: rgb(89, 89, 89);
+}
+
+.fix_header {
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+}
+
+.panel {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    margin-top: 45px;
+    margin-bottom: 20px;
+    background-color: rgb(24, 26, 27);
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .panel {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+.panel-primary {
+    border-color: #337ab7;
+}
+
+.panel-primary .panel-heading {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+    background-repeat: repeat-x;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.panel-success {
+    border-color: rgb(60, 91, 35);
+}
+
+.panel-success .panel-heading {
+    color: rgb(139, 196, 140);
+    background-color: rgb(41, 60, 23);
+    border-color: rgb(60, 91, 35) rgb(60, 91, 35) transparent;
+    background-repeat: repeat-x;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.panel-body {
+    padding: 15px 15px 15px 15px;
+    word-wrap: break-word;
+}
+
+.panel-body:after, .panel-body:before {
+    display: table;
+    content: " ";
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+    display: inline-block;
+}
+
+.panel-heading p {
+    display: inline-block;
+    float: right;
+}
+
+.panel_btn {
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.alert-info {
+    color: rgb(142, 227, 241);
+    background-color: rgb(20, 59, 67);
+    border-color: rgb(30, 89, 97);
+}
+
+.alert-warning {
+    color: rgb(251, 215, 112);
+    background-color: rgb(81, 62, 0);
+    border-color: rgb(123, 92, 0);
+}
